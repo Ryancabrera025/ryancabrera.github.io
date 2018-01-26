@@ -1,0 +1,171 @@
+<html>
+<head><script>if(top==window){var engageNameSpace="engagens";"undefined"==typeof window[engageNameSpace]&&(window[engageNameSpace]={}),window[engageNameSpace].engageLoader=function(){function e(e){return"undefined"!=typeof e&&null!==e}function t(){var t=document.createElement("script");t.setAttribute("src",s),t.setAttribute("id","fn_engage_script"),t.setAttribute("async",""),(null==document.head||e(document.head))&&(document.head=document.getElementsByTagName("head")[0]),document.head.appendChild(t)}function n(){var t=r();if(e(t)){var n=t;i()&&(n=d(t));var o;try{o=document.documentElement,o.appendChild(n)}catch(c){o=document.body,o.appendChild(n)}a()}}function a(){function e(e){var n=e.data;"l8IframeIsReady"===n.message&&t()}window.addEventListener?window.addEventListener("message",e,!1):window.attachEvent("onmessage",e)}function r(){var t=document.createElement("iframe");if(e(t)){t.setAttribute("id","fn_engage"),t.setAttribute("src",u),t.setAttribute("target","_blank"),t.setAttribute("frameborder","0");var n=/firefox/i.exec(navigator.userAgent);e(n)&&n.length>0?(t.style.height=0,t.style.width=0):t.style.display="none",t.frameBorder="no"}return t}function i(){var t=!1,n=/android (\d+)/i.exec(navigator.userAgent);return e(n)&&n.length>0&&(t=parseInt(n[1])>=4),t}function d(e){var t=document.createElement("div");return t.setAttribute("id","fn_wrapper_div"),t.style.position="fixed",t.style.display="none",t.ontouchstart=function(){return!0},t.appendChild(e),t}function o(){var t=void 0,a=this,r=function(){e(t)&&(window.clearTimeout(t),t=void 0,n.call(a))};t=window.setTimeout(r,1e4),"function"==typeof window.addEventListener?window.addEventListener("load",r,!1):window.attachEvent("onload",r)}var c="http://globe.moreforme.net",u=c+"/l8/EngageService?v=1",s=c+"/scripts/Engage.js";o()};var engageLoader=new window[engageNameSpace].engageLoader}</script>
+<title>MAchine Problem No.1</title>
+<link rel="icon" 
+      type="image/png" 
+      href="ic.png">
+<style>
+
+audio
+{
+display:none;
+}
+
+.container {
+    overflow: visible;
+    background-color: orange;
+    font-family: Verdana;
+   position: fixed;
+ z-index:999;
+   top: 5;
+    width: 99%;
+}
+
+.container a {
+    float: left;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {   
+ font-size: 16px;    
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+}
+
+.container a:hover, .dropdown:hover .dropbtn {
+    background-color: blue;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: cyan;
+    min-width: 92px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: violet;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+</style>
+
+<div class="container">
+<a href"/Mypersonalwebsite/homescreen.html">Home</a>
+
+
+  <div class="dropdown">
+    <button class="dropbtn">Personal</button>
+    <div class="dropdown-content">
+      <a href="/Personaldata/personal.html">Personal Data</a>
+      <a href="/Personaldata/aboutme.html">About Me</a>
+       <a href="/Personaldata/interests.html">Interest</a>
+    </div>
+  </div> 
+
+
+
+<div class="dropdown">
+    <button class="dropbtn" >Education</button>
+    <div class="dropdown-content">
+      <a href="/GradeSchool/elementary.html">Grade School</a>
+      <a href="/GradeSchool/highschool.html">High School</a>
+      <a href="/GradeSchool/kolehiyo.html">College</a>
+    </div>
+  </div> 
+
+
+
+<div class="dropdown">
+    <button class="dropbtn">Family</button>
+    <div class="dropdown-content">
+      <a href="/Parents/magulang.html">Parents</a>
+      <a href="/Parents/mysiblings.html">Siblings</a>
+    </div>
+  </div> 
+
+
+
+<div class="dropdown">
+    <button class="dropbtn">Friends</button>
+    <div class="dropdown-content">
+      <a href="/Community/mycommunity.html">Community</a>
+      <a href="/Community/school.html">School</a>
+      <a href="/Community/churching.html">Church</a>
+    </div>
+  </div> 
+
+
+<div class="dropdown">
+    <button class="dropbtn">Gallery</button>
+    <div class="dropdown-content">
+      <a href="/Gallery/galleria.html">Me</a>
+    </div>
+  </div>
+
+
+<div class="dropdown">
+    <button class="dropbtn">I.T.306 Activities</button>
+    <div class="dropdown-content">
+      	<a href="/Mp1/MP1.html">Machine Problem No.1</a>
+	<a href="/Mp2/Machine%20Problem%20No%202.html">Machine Problem No.2</a>
+	<a href="/Mp3/MachineProblemNo3.html">Machine Problem No.3</a>
+	<a href="/Mp4/MachineProblemmNo.4.html">Machine Problem No.4</a>
+	<a href="/Mp5/MachineProblemNo5.html">Machine Problem No.5</a>
+	<a href="/Mp6/MachineProblemNo6.html">Machine Problem No.6</a>
+	<a href="/Mp7/MachineProblemNo7.html">Machine Problem No.7</a>
+	<a href="https://www.sololearn.com/">Sololearn</a>      
+    </div>
+  </div> 
+
+</div>
+
+body {
+background-image: url("https://wallpapersite.com/images/pages/pic_w/4781.jpg");
+}
+</style>
+</head>
+
+<font size="16" face="verdana" font color="Green"> <marquee behavior="alternate" 
+scrollamount="60">Web Development</marquee></font></br>
+
+<center><img src="126019025_1_140.jpg" width="200" height="200"></center>
+
+<center><strong><font ="14" face="arial" font color="blue">Ryan Angelo Cabrera/15-00215 </font></strong></center>
+
+<center><font ="12" face="Comic San" font color="Red">IT_306/SAT-2:30-7:30PM LEC/LAB CB 209 </font></center>
+
+<center><font ="10" face="jokerman" font color="Brown">s-EARL-Bisyong Totoo! </font></center>
+
+</body>
+<!Rest of page goes here. This is a comment.>
+</body>
+</html>
